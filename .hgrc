@@ -1,0 +1,10 @@
+[ui]
+username = Seth Jackson <sethjackson@gmail.com>
+
+[extensions]
+color =
+convert =
+purge =
+rebase =
+shelve =
+strip =

@@ -1,0 +1,10 @@
+[user]
+    name = Seth Jackson
+    email = sethjackson@gmail.com
+
+[core]
+    autocrlf = false
+    eol = "lf"
+
+[push]
+    default = simple
