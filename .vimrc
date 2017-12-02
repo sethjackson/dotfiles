@@ -18,6 +18,8 @@ set shiftwidth=4
 set expandtab
 set autoindent
 
+autocmd FileType eruby,html,ruby,yaml setlocal tabstop=2 softtabstop=2 shiftwidth=2
+
 set termguicolors
 set background=dark
 colorscheme gruvbox
