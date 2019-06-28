@@ -1,5 +1,3 @@
-execute pathogen#infect()
-
 set nocompatible
 
 set nobackup
