@@ -4,6 +4,3 @@
 
 [core]
     autocrlf = false
-
-[push]
-    default = simple
