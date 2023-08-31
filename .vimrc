@@ -22,7 +22,6 @@ if $TERM_PROGRAM != "Apple_Terminal"
     set termguicolors
 endif
 
-set background=dark
 colorscheme gruvbox
 
 set number
