@@ -18,7 +18,10 @@ set autoindent
 
 autocmd FileType eruby,html,ruby,yaml setlocal tabstop=2 softtabstop=2 shiftwidth=2
 
-set termguicolors
+if $TERM_PROGRAM != "Apple_Terminal"
+    set termguicolors
+endif
+
 set background=dark
 colorscheme gruvbox
 
