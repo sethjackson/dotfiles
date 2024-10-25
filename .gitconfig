@@ -1,6 +1,7 @@
 [user]
     name = Seth Jackson
     email = sethjackson@gmail.com
-
 [core]
     autocrlf = false
+[init]
+    defaultBranchName = main
