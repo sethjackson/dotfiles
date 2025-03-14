@@ -5,3 +5,7 @@
     autocrlf = false
 [init]
     defaultBranchName = main
+[fetch]
+    prune = true
+[push]
+    autoSetupRemote = true
