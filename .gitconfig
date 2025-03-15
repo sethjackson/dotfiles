@@ -5,6 +5,8 @@
     autocrlf = false
 [init]
     defaultBranchName = main
+[diff]
+    algorithm = histogram
 [fetch]
     prune = true
 [push]
