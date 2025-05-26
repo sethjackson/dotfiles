@@ -4,7 +4,7 @@
 [core]
     autocrlf = false
 [init]
-    defaultBranchName = main
+    defaultBranch = main
 [diff]
     algorithm = histogram
 [fetch]
