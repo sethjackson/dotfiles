@@ -19,7 +19,7 @@ if [[ $OSTYPE = darwin* ]]; then
     export JAVA_HOME=$(/usr/libexec/java_home -v 21)
 fi
 
-# PATH setup
+# PATH
 typeset -aU path
 
 path+=(~/bin)
