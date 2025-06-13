@@ -9,7 +9,7 @@ export EDITOR
 export JAVA_HOME=/usr/local/jdk-21
 
 # PATH
-PATH=$PATH:$JAVA_HOME/bin:~/bin:~/.cargo/bin
+PATH=$PATH:$JAVA_HOME/bin:~/bin
 export PATH
 
 # editing mode

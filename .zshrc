@@ -23,7 +23,6 @@ fi
 typeset -aU path
 
 path+=(~/bin)
-path+=(~/.cargo/bin)
 
 if [[ $OSTYPE = darwin* ]]; then
     path+=(~/Library/Python/3.13/bin)
