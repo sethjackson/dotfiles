@@ -6,7 +6,7 @@ EDITOR=vim
 export EDITOR
 
 # Java
-export JAVA_HOME=/usr/local/jdk-21
+export JAVA_HOME=/usr/local/jdk-25
 
 # PATH
 PATH=$PATH:$JAVA_HOME/bin:~/bin
