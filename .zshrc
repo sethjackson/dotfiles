@@ -14,11 +14,6 @@ fi
 # colors for `ls`
 export CLICOLOR=1
 
-# Java
-if [[ $OSTYPE = darwin* ]]; then
-    export JAVA_HOME=$(/usr/libexec/java_home -v 25)
-fi
-
 # PATH
 typeset -aU path
 
