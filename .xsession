@@ -1,1 +1,2 @@
-startxfce4
+xterm &
+cwm
