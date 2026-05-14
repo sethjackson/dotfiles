@@ -1,3 +1,3 @@
-feh --bg-fill .config/background.jpeg
+feh --bg-fill ~/.config/background.jpeg &
 xterm &
 cwm
