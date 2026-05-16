@@ -17,10 +17,6 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
-vim.opt.fileformats = "unix,dos"
-
-vim.cmd.colorscheme("gruvbox")
-
 vim.api.nvim_create_autocmd("FileType", {
     pattern = { "css", "eruby", "html", "javascript", "ruby", "yaml" },
     callback = function()
@@ -29,3 +25,7 @@ vim.api.nvim_create_autocmd("FileType", {
         vim.opt_local.shiftwidth = 2
     end
 })
+
+vim.opt.fileformats = "unix,dos"
+
+vim.cmd.colorscheme("gruvbox")
