@@ -6,7 +6,8 @@ vim.pack.add({
 
 vim.opt.swapfile = false
 
-vim.opt.fileformats = "unix,dos"
+vim.opt.number = true
+vim.opt.cursorline = true
 
 vim.opt.wrap = false
 vim.opt.foldenable = false
@@ -16,10 +17,9 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
-vim.cmd.colorscheme("gruvbox")
+vim.opt.fileformats = "unix,dos"
 
-vim.opt.number = true
-vim.opt.cursorline = true
+vim.cmd.colorscheme("gruvbox")
 
 vim.api.nvim_create_autocmd("FileType", {
     pattern = { "css", "eruby", "html", "javascript", "ruby", "yaml" },
