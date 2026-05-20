@@ -6,7 +6,7 @@ PATH=$PATH:~/bin
 export PATH
 
 # editor
-EDITOR=nvim
+EDITOR=hx
 export EDITOR
 
 # editing mode
