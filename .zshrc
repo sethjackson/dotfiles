@@ -11,9 +11,6 @@ else
     PS1=$'%F{green}%n@%m%f %F{yellow}%~%f\n%(!.#.$) '
 fi
 
-# editor
-export EDITOR=hx
-
 # colors for `ls`
 export CLICOLOR=1
 
